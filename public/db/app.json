@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "postTitle": "Lorem Ipsum",
+      "postAuthor": "Busy",
+      "postPublishedDate": "04.08.2024",
+      "postShort": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in mi suscipit.",
+      "postContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse velit dui, condimentum et ultrices non, interdum vestibulum ex. In vitae libero consequat enim volutpat sodales non eget nunc. Duis viverra. "
+    },
+    {
+      "id": "3",
+      "postTitle": "Lorem Ipsum",
+      "postAuthor": "Busy",
+      "postPublishedDate": "02.08.2024",
+      "postShort": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in mi suscipit.",
+      "postContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse velit dui, condimentum et ultrices non, interdum vestibulum ex. In vitae libero consequat enim volutpat sodales non eget nunc. Duis viverra. "
+    },
+    {
+      "id": "4",
+      "postTitle": "Lorem Ipsum",
+      "postAuthor": "Busy",
+      "postPublishedDate": "01.08.2024",
+      "postShort": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in mi suscipit.",
+      "postContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse velit dui, condimentum et ultrices non, interdum vestibulum ex. In vitae libero consequat enim volutpat sodales non eget nunc. Duis viverra. "
+    },
+    {
+      "id": "5",
+      "postTitle": "Lorem Ipsum",
+      "postAuthor": "Busy",
+      "postPublishedDate": "01.08.2024",
+      "postShort": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in mi suscipit.",
+      "postContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse velit dui, condimentum et ultrices non, interdum vestibulum ex. In vitae libero consequat enim volutpat sodales non eget nunc. Duis viverra. "
+    },
+    {
+      "id": "3B7IlxL3n",
+      "postTitle": "title",
+      "postAuthor": "author",
+      "postPublishedDate": "10.08.2024",
+      "postShort": "post textpost textpost text",
+      "postContent": "<p>Tralalalalalallall lalalallal lalalalal</p>"
+    },
+    {
+      "id": "n9fAfbqYa",
+      "postTitle": "Nowy tytuł posta",
+      "postAuthor": "autor posta",
+      "postPublishedDate": "04.07.2028",
+      "postShort": "Krótki opis jakiś tam",
+      "postContent": "<p><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony </em><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomarańczowy text </span><strong>pogrubiony text </strong><em>przekrzywiony text </em><span style=\"color: orange;\">pomar</span></p>"
+    }
+  ]
+}

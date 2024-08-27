@@ -1,0 +1,11 @@
+@import '../../../styles/settings.scss';
+
+.footercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footercontent{
+    color: $color-gray;
+}

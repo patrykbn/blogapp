@@ -1,0 +1,39 @@
+@import '../../../styles/settings.scss';
+
+.postcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 40vh;
+    font-family: $font-text;
+}
+
+.postcontent{
+    display: flex;
+    flex-direction: column;
+}
+
+.posttitlebar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    flex: 1;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    .editpostbutton{
+        width: 5em;
+        margin-right: 1em;
+    }
+    .deletepostbutton{
+        width: 6em;
+    }
+}

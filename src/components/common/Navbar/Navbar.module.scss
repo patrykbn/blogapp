@@ -1,0 +1,65 @@
+@import '../../../styles/settings.scss';
+
+.navcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: $font-text;
+}
+
+.navbar{
+    display: flex;
+    padding: 0.15em 2.5em 0.15em 2.5em;
+    background-color: $color-dark;
+    width: $app-width;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: ($radius * 2);
+    ;
+}
+
+.navtaskcontainer{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.apptitle{
+    color: $color-light;
+    font-size: ($base-size * 2);
+    margin: 0;
+}
+
+.navbuttoncontainer{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navlinks{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.3em 0 0.3em 0;
+}
+
+.navlinks li{
+    list-style-type: none;
+    padding: 0 1.2em 0 1.2em;
+}
+
+.navlinks .homenav{
+    text-decoration: none;
+    color: $color-light;
+    transition: color 1s;
+}
+
+.navlinks .aboutnav{
+    text-decoration: none;
+    color: $color-light;
+    transition: color 1s;
+}

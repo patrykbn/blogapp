@@ -1,0 +1,51 @@
+@import '../../../styles/settings.scss';
+
+.postcard{
+    min-height: 220px;
+    .cardbutton{
+        background-color: $color-dark;
+        border-color: $color-darker;
+        transition: $transition;
+        &:hover{
+            background-color: $color-darker;
+        }
+    }
+    .posttitle{
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    .postinfo{
+        font-size: 0.8em;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+        .postauthor{
+            padding-left: 1em;
+            font-weight: 400;
+        }
+        .postdate{
+            padding-left: 1em;
+            font-weight: 400;
+        }
+    }
+    .descriptioncontainer{
+        height: 50px;
+        width: 190px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        @media (max-width: 992px) {
+            width: 150px;
+        }
+    }
+    .postdescription{
+        font-size: 1em;
+        font-weight: 200;
+        line-height: 1.2em
+    }
+}
+
+.cardbutton{
+    width: $base-size*10;
+    margin: 0 $base-size $base-size $base-size;
+}

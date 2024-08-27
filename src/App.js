@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Navbar from './components/common/Navbar/Navbar';
+import Main from './components/pages/Main/Main';
+import About from './components/pages/About/About';
+import Post from './components/pages/Post/Post';
+import AddPost from './components/pages/AddPost/AddPost';
+import EditPost from './components/pages/EditPost/EditPost';
+import NotFound from './components/pages/NotFound/NotFound';
+import Footer from './components/common/Footer/Footer';
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
+// Bootstrap Bundle JS
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
-function App() {
+const App = props =>  {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="blogApp">
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Main />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/post/:id' element={<Post />} />
+        <Route path='/post/addPost' element={<AddPost />} />
+        <Route path='/post/:id/editPost' element={<EditPost />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

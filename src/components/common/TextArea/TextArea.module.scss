@@ -1,0 +1,11 @@
+@import '../../../styles/settings.scss';
+
+.textarea {
+    width: 100%;
+    padding: $base-size;
+    color: rgb(24, 24, 24);
+    border-color: $color-gray;
+    border-radius: $radius;
+    border: solid 1px;
+    resize: none;
+}

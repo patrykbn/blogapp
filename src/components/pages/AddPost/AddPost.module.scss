@@ -1,0 +1,68 @@
+@import '../../../styles/settings.scss';
+
+.preload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .preloadcol{
+        border: solid 2px $color-dark;
+        border-radius: $radius;
+        width: 300px;
+        padding: $base-size $base-size*2;
+        margin: $base-size*6 0;
+    }
+
+}
+
+.editpostcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 30vh;
+}
+
+.editpostcontent{
+    display: flex;
+    flex-direction: column;
+}
+
+.posteditrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: $base-size 0;
+    margin: $base-size*2 0;
+}
+
+.title{
+    height: $base-size*3;
+    width: 70%;
+}
+
+.author{
+    height: $base-size*3;
+    width: 70%;
+}
+
+.date{
+    height: $base-size*3;
+    width: 70%;
+}
+
+.short{
+    height: $base-size*7;
+    
+}
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    //height: $base-size*18;
+}
+
+.buttoncontainer{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: $base-size*3;
+}

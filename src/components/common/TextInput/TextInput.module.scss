@@ -1,0 +1,9 @@
+@import '../../../styles/settings.scss';
+
+.input{
+    color: rgb(24, 24, 24);
+    border-color: $color-gray;
+    border-radius: $radius;
+    border: solid 1px;
+    //height: $base-size;
+}

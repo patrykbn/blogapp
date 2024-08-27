@@ -1,0 +1,47 @@
+@import '../../../styles/settings.scss';
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-text;
+}
+.pagetitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    padding: $base-size*2 0;
+    .title{
+        font-size: $base-size*3;
+    }
+    .addpostbutton{
+        background-color: white;
+        border-color: $color-dark;
+        color: $color-dark;
+        &:hover{
+            background-color: $color-dark;
+            color: $color-light;
+        }
+    }
+}
+.rowcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    @media (max-width: 992px) {
+        width: 100%;
+    }
+    .card{
+        padding: $base-size;
+    }
+}
+.postcard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
